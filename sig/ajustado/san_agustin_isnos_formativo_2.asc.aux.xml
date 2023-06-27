@@ -1,0 +1,71 @@
+<PAMDataset>
+  <PAMRasterBand band="1">
+    <UnitType>unspecified</UnitType>
+    <ColorInterp>Palette</ColorInterp>
+    <CategoryNames>
+      <Category></Category>
+      <Category>Recon</Category>
+      <Category>Ocupado</Category>
+    </CategoryNames>
+    <ColorTable>
+      <Entry c1="255" c2="0" c3="0" c4="255" />
+      <Entry c1="127" c2="0" c3="127" c4="255" />
+      <Entry c1="0" c2="0" c3="255" c4="255" />
+    </ColorTable>
+    <GDALRasterAttributeTable tableType="thematic">
+      <FieldDefn index="0">
+        <Name>Value</Name>
+        <Type>0</Type>
+        <Usage>0</Usage>
+      </FieldDefn>
+      <FieldDefn index="1">
+        <Name>Value_1</Name>
+        <Type>0</Type>
+        <Usage>5</Usage>
+      </FieldDefn>
+      <FieldDefn index="2">
+        <Name>Red</Name>
+        <Type>0</Type>
+        <Usage>6</Usage>
+      </FieldDefn>
+      <FieldDefn index="3">
+        <Name>Green</Name>
+        <Type>0</Type>
+        <Usage>7</Usage>
+      </FieldDefn>
+      <FieldDefn index="4">
+        <Name>Blue</Name>
+        <Type>0</Type>
+        <Usage>8</Usage>
+      </FieldDefn>
+      <FieldDefn index="5">
+        <Name>Alpha</Name>
+        <Type>0</Type>
+        <Usage>9</Usage>
+      </FieldDefn>
+      <FieldDefn index="6">
+        <Name>Class_name</Name>
+        <Type>2</Type>
+        <Usage>2</Usage>
+      </FieldDefn>
+      <Row index="0">
+        <F>1</F>
+        <F>1</F>
+        <F>127</F>
+        <F>0</F>
+        <F>127</F>
+        <F>255</F>
+        <F>Recon</F>
+      </Row>
+      <Row index="1">
+        <F>2</F>
+        <F>2</F>
+        <F>0</F>
+        <F>0</F>
+        <F>255</F>
+        <F>255</F>
+        <F>Ocupado</F>
+      </Row>
+    </GDALRasterAttributeTable>
+  </PAMRasterBand>
+</PAMDataset>
